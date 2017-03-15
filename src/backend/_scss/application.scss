@@ -1567,3 +1567,79 @@ a.skip:hover {
   border-color:#333;
   margin:0 auto;
 }
+
+#track1 {
+  margin: 15px 0 0 15px;
+}
+
+#track-list {
+  margin-top:4%;
+}
+
+.paddingzero {
+  padding: 0;
+}
+
+.left-border {
+  padding-right: 0px;
+  margin-bottom: -1px;
+  padding-bottom:10px;
+}
+
+#event-title {
+  font-size:18px;
+  color:#333333;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#event-upper-block {
+  margin-top: -15px;
+  padding-top:15px;
+}
+
+.session-speakers {
+  margin-right: 20px;
+}
+
+.speaker-image-small {
+  width:5rem;
+  height:5rem;
+  border-radius:50%;
+}
+
+.speaker-image-large {
+  width:10rem;
+  height:10rem;
+  border-radius:50%;
+}
+
+#audio-block {
+  display: block;
+  margin-top: 15px
+}
+
+// style from speaker
+
+#speaker-body {
+  background-color: #f8f8f8 !important;
+}
+
+#speaker-container {
+  background-color: #fff;
+  padding: 2%;
+}
+
+#pop-speaker-name {
+  color: black;
+}
+
+#session-location {
+  font-size:12px;
+  font-weight: normal;
+  margin:6px 0;
+}
+
+#speaker-social-icons {
+  padding:2%;
+}
