@@ -74,7 +74,7 @@
     </p>
 
     <div class="row">
-      <div id="track1" class="col-md-9">
+      <div id="content-block" class="col-md-9">
         <div id="track-list" class="container">
 
           {{#timeList}}
@@ -127,7 +127,7 @@
                             <p class="session-speakers-less">
                               <p class="session-speakers">
                               {{#if photo}}
-                                <img onError="this.onerror=null;this.src='images/avatar.png';" src="{{{thumb}}}" class="card-img-top speaker-image-large lazy" width="10" height="10"/>
+                                <img onError="this.onerror=null;this.src='images/avatar.png';" data-original="{{{thumb}}}" class="card-img-top speaker-image-large lazy" width="10" height="10"/>
                               {{else}}
                                 <img class="card-img-top speaker-image-large" src="images/avatar.png"/>
                               {{/if}}

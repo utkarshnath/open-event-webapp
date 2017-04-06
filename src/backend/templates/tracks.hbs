@@ -74,7 +74,7 @@
         </p>
         <div id="session-list" class="container">
           <div class="row">
-            <div id="track1" class="col-md-9">
+            <div id="content-block" class="col-md-9">
                      {{> subnavbar flag = 1}}
               <div id="track-list">
                 {{#days}}
@@ -126,9 +126,9 @@
                                       <div class="row">
                                           <div class="col-md-6 col-xs-12 speakers-list">
 				                      {{#speakers_list}}
-				                      <p style="float:left" class="session-speakers">
+				                      <p style="margin-right:10px; float:left" class="session-speakers">
                                 {{#if photo}}
-                                    <img onError="this.onerror=null;this.src='./images/avatar.png';" src="{{thumb}}" class="lazy card-img-top speaker-image-small"/>
+                                    <img onError="this.onerror=null;this.src='./images/avatar.png';" data-original="{{thumb}}" class="lazy card-img-top speaker-image-small"/>
                                   {{else}}
                                     <img class="card-img-top speaker-image-small" src="./images/avatar.png"/>
                                 {{/if}}
